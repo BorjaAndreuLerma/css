@@ -1,0 +1,387 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29-sep-2016, 8:41:34
+    Author     : alumno
+*/
+.bordediv{
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: solid 1px;
+    border-color: #dbd6cb;
+    box-shadow: 1px 1px 10px gray;
+}
+.partesuperior{
+    color:#63615e;
+    background-color: #c1bdb4;
+    padding: 10px 15px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.parteinferior{
+    padding: 15px 15px;
+    border-top: solid 1px;
+    border-color: #dbd6cb;
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.div--danger{
+    border-color: #EBCCD1;
+}
+.superior--danger{
+    background-color: #F2DEDE;
+    color: #cf5c42;
+}
+.inferior--danger{
+    border-color: #EBCCD1;
+}
+.div--succes{
+    border-color: #D6E9C6;
+}
+.superior--succes{
+    background-color: #DFF0D8;
+    color: #3C763D;
+}
+.inferior--succes{
+    border-color: #D6E9C6;
+}
+.div--info{
+    border-color: #BCE8F1;
+}
+.superior--info{
+    background-color: #D9EDF7;
+    color: #467095;
+}
+.inferior--info{
+    border-color: #BCE8F1;
+}
+.div--warning{
+    border-color: #FAEBCC;
+}
+.superior--warning{
+    background-color: #FCF8E3;
+    color: #9F6D4A;
+}
+.inferior--warning{
+    border-color: #FAEBCC;
+}
+.div--primary{
+    border-color: #337AB7;
+}
+.superior--primary{
+    background-color: #337AB7;
+    color: #FFFFFF;
+}
+.inferior--primary{
+    border-color: #337AB7;
+}
+
+/*--------------------------------------------------------------------*/
+
+.mensaje{
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: solid 1px;
+    border-color: #dbd6cb;
+    box-shadow: 3px 3px 10px gray;
+    color:#63615e;
+    background-color: #c1bdb4;
+    padding: 10px 15px;
+}
+.mensaje--danger{
+    border-color: #EBCCD1;
+    background-color: #F2DEDE;
+    color: #cf5c42;
+    box-shadow: 3px 3px 10px #F2DEDE;
+}
+
+.mensaje--succes{
+    border-color: #D6E9C6;
+    background-color: #DFF0D8;
+    color: #3C763D;
+    box-shadow: 3px 3px 10px #DFF0D8;
+}
+
+.mensaje--info{
+    border-color: #BCE8F1;
+    background-color: #D9EDF7;
+    color: #467095;
+    box-shadow: 3px 3px 10px #D9EDF7;
+}
+
+.mensaje--warning{
+    border-color: #FAEBCC;
+    background-color: #FCF8E3;
+    color: #9F6D4A;
+    box-shadow: 3px 3px 10px #FCF8E3;
+}
+
+.mensaje--primary{
+    border-color: #337AB7;
+    background-color: #337AB7;
+    color: #FFFFFF;
+    box-shadow: 3px 3px 10px #337AB7;
+}
+
+/*Botones*/
+
+.boton{
+    color: white;
+    background-color: #c1bdb4;
+    border-color: #dbd6cb;
+    border-radius: 4px;
+    display: inline-block;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: 0;
+}
+.boton--:hover{
+    background-color: #dbd6cb; 
+    border-color: #999e99;
+}
+.boton--primary{
+    background-color: #337ab7;
+    border-color: #2E6DA4; 
+}
+.primary:hover{
+    background-color: #2E6DA4; 
+    border-color: #266293;
+}
+.boton--succes{
+    background-color: #5CB85C;
+    border-color: #4CAE4C;
+}
+.succes:hover{
+    background-color: #349634; 
+    border-color: #3d963d;
+}
+.boton--info{
+    background-color: #5BC0DE;
+    border-color: #46B8DA;
+}
+.info:hover{
+    background-color: #46B8DA; 
+    border-color: #39a2bf;
+}
+.boton--warning{
+    background-color: #F0AD4E;
+    border-color: #EEA236;
+}
+.warning:hover{
+    background-color: #EEA236; 
+    border-color: #db932e;
+}
+.boton--danger{
+    background-color: #D9534F;
+    border-color: #D43F3A;
+}
+.danger:hover{
+    background-color: #D43F3A; 
+    border-color: #b7322f;
+}
+.large{
+    font-size: 30px;
+}
+.default{
+    font-size: 15px;
+}
+.small{
+    font-size: 10px;
+}
+.extrasmall{
+    font-size: 5px;
+}
+.boton--sombraclick:focus{
+    box-shadow: inset 3px 3px 10px gray;
+}
+.boton--sombraclick--primary:focus{
+    box-shadow: inset 3px 3px 10px #2E6DA4;
+}
+.boton--sombraclick--succes:focus{
+    box-shadow: inset 3px 3px 10px #4CAE4C;
+}
+.boton--sombraclick--info:focus{
+    box-shadow: inset 3px 3px 10px #46B8DA;
+}
+.boton--sombraclick--warning:focus{
+    box-shadow: inset 3px 3px 10px #EEA236;
+}
+.boton--sombraclick--danger:focus{
+    box-shadow: inset 3px 3px 10px #D43F3A;
+}
+
+/*Barra herraientas*/
+
+/*li{
+    float: left;
+    border-bottom: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC; 
+    padding: 0px;
+    margin: 0px;
+    border-collapse: collapse;
+    color: black; 
+    list-style: none;
+}
+li a{
+    display:block;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    color: black;
+}
+.li--boton:hover{
+    background-color: #EEEEEE;
+}
+li:first-child{
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border-left: 1px solid #CCCCCC;
+}
+li:last-child{
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.li--numeros{
+    color: #59A7DF;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 8px;
+    padding-left: 8px;
+}*/
+@keyframes prueba{
+    0%{-webkit-transform: rotate(0deg);width: 100px; height: 100px;}
+    25%{-webkit-transform: rotate(90deg);width: 115px; height: 115px;}
+    50%{-webkit-transform: rotate(180deg);width: 125px; height: 125px;}
+    75%{-webkit-transform: rotate(270deg);width: 115px; height: 115px;}
+    100%{-webkit-transform: rotate(360deg); width: 100px; height: 100px;}
+}
+.centrardiv{
+    text-align: center;
+}
+.animacion{
+    width: 100px;
+    height: 100px;
+    animation-name: prueba;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+.animacion2{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 10px auto;
+    background: #ccc;
+    text-align: center;
+    transition: all 1s ease-in-out;
+}
+.animacion2:hover{    
+    -webkit-transform: rotate(720deg) scale(2,2);    
+}
+/*Menu desplegable*/
+
+li{
+    list-style: none;
+    color: white;
+}
+.vertical-menu{
+    width: 50%;
+}
+.vertical-menu__item-container-cerradas{
+    background-color: #4D5158;    
+    border-top: 1px solid #35383D;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.vertical-menu__item-container-cerradas:before{
+    font-family: FontAwesome;
+    content: "\f07b";  
+    padding: 10px;
+}
+.vertical-menu__item-container-cerradas:after{
+    float: right;
+    font-family: FontAwesome;
+    content: "\f0d7";   
+    padding-right: 20px;
+}
+.subcarpetas-cerradas{
+    background-color: #35383D;    
+    padding-left: 10px;
+    border-top: 1px solid #4D5158;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.subcarpetas-cerradas:before{
+    font-family: FontAwesome;
+    content: "\f07b";    
+    padding: 10px;
+}
+.subcarpetas-cerradas:after{
+    float: right;
+    font-family: FontAwesome;
+    content: "\f0d7"; 
+    padding-right: 20px;
+}
+.sublistas{
+    padding: 0px;
+}
+.archivos{
+    background-color: #35383D;    
+    padding-left: 10px;
+    border-top: 1px solid #4D5158;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.archivos:before{
+    font-family: FontAwesome;
+    content: "\f016";    
+    padding: 10px;
+}
+
+
+.vertical-menu__item-container-abiertas{
+    background-color: #4D5158;    
+    border-top: 1px solid #35383D;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.vertical-menu__item-container-abiertas:before{
+    font-family: FontAwesome;
+    content: "\f07c";  
+    padding: 10px;
+}
+.vertical-menu__item-container-abiertas:after{
+    float: right;
+    font-family: FontAwesome;
+    content: "\f0d8";   
+    padding-right: 20px;
+}
+.subcarpetas-abiertas{
+    background-color: #35383D;    
+    padding-left: 10px;
+    border-top: 1px solid #4D5158;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.subcarpetas-abiertas:before{
+    font-family: FontAwesome;
+    content: "\f07c";    
+    padding: 10px;
+}
+.subcarpetas-abiertas:after{
+    float: right;
+    font-family: FontAwesome;
+    content: "\f0d8"; 
+    padding-right: 20px;
+}
+
+.listavisible{
+    display: visible;
+}
+.listainvisible{
+    display: none;
+}
